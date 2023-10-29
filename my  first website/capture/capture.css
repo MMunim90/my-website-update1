@@ -1,0 +1,41 @@
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(99, 129, 129);
+            font-family: monospace;
+        }
+        .cncl{
+            padding: 9px;
+            padding-left: 16px;
+            padding-right: 16px;
+            margin-top: 10px;
+            border-radius: 19px;
+            transition: 0.5s;
+            font-size: 18px;
+        }
+        .cncl:hover{
+            transform: scale(1.1);
+            background-color: black;
+            color: white;
+        }
+        .frv{
+            text-align: center;
+        }
+        .cen{
+            text-align: center;
+            text-decoration-line: underline;
+            text-decoration-style: wavy;
+        }
+        .hov{
+            height: 450px;
+            width: 500px;
+        }
+        .hov:active{
+            height: 750px;
+            width: 1050px;
+        }
+     
